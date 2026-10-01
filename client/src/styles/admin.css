@@ -68,6 +68,7 @@
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  min-width: 0;
 }
 
 .admin-topbar {
@@ -339,6 +340,9 @@
 
 /* Mobile Responsive Admin Styles */
 @media (max-width: 900px) {
+  .hide-mobile {
+    display: none !important;
+  }
   .admin-menu-toggle {
     display: flex;
   }

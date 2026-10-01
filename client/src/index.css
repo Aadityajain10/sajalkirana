@@ -109,3 +109,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
