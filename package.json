@@ -2,12 +2,19 @@
   "name": "sajal-kirana",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "postinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
     "client": "npm run dev --prefix client",
     "server": "npm run dev --prefix server",
     "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

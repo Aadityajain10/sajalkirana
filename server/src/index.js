@@ -54,3 +54,5 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`🚀 Sajal Kirana Backend running on http://localhost:${PORT}`);
 });
+
+export default app;
