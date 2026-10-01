@@ -121,7 +121,7 @@ export default function CartDrawer() {
                   style={{ width: '100%', background: 'linear-gradient(135deg, #059669 0%, #047857 100%)', fontSize: '0.88rem' }}
                 >
                   <MessageCircle size={18} />
-                  <span>Send to Saurabh (+91 88199 39196)</span>
+                  <span>Send to Sourabh (+91 88199 39196)</span>
                 </a>
               )}
             </div>

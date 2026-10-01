@@ -79,20 +79,20 @@ export default function Navbar() {
                 <span>Call / Order:</span>
               </span>
               <a
+                href="tel:+918819939196"
+                className="top-call-pill"
+                title="Call Sourabh"
+              >
+                <span className="call-pill-tag counter">SOURABH</span>
+                <span className="call-pill-num">+91 88199 39196</span>
+              </a>
+              <a
                 href="tel:+917974981304"
                 className="top-call-pill"
                 title="Call Sajal (Store Owner)"
               >
-                <span className="call-pill-tag owner">Sajal</span>
+                <span className="call-pill-tag owner">SAJAL</span>
                 <span className="call-pill-num">+91 79749 81304</span>
-              </a>
-              <a
-                href="tel:+918819939196"
-                className="top-call-pill"
-                title="Call Saurabh"
-              >
-                <span className="call-pill-tag counter">Saurabh</span>
-                <span className="call-pill-num">+91 88199 39196</span>
               </a>
             </div>
 
